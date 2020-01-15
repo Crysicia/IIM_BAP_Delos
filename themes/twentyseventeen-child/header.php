@@ -11,8 +11,9 @@
  * @since 1.0
  * @version 1.0
  */
+?>
 
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -23,3 +24,50 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<header>
+    <div class="header-infos">
+        <a href="" class="logo"></a>
+
+        <div class="right-infos">
+            <div class="email-container">
+                <div class="email-img"></div>
+                <div class="email-infos">
+                    <h6>Email</h6>
+                    <p>siege@delos78.fr</p>
+                </div>
+            </div> <!-- email-container -->
+
+            <div class="tel-container">
+                <div class="tel-img"></div>
+                <div class="tel-infos">
+                    <h6>Téléphone</h6>
+                    <p>0634940202</p>
+                </div>
+            </div> <!-- tel-containter -->
+        </div> <!-- right-infos -->
+    </div> <!-- header-infos -->
+
+    <div class="gray-line"></div>
+
+    <nav>
+        <ul class="ul">
+            <li><a href="">L'association</a>
+                <ul class="dropdown">
+                    <li class="dropdown-liste"><a class="dropdown-text" href="">Présentation</a></li>
+                    <li class="dropdown-liste"><a class="dropdown-text" href="">Notre Projet</a></li>
+                    <li class="dropdown-liste"><a class="dropdown-text" href="">L'organisation</a></li>
+                </ul>
+            </li>
+            <li><a href="">Nous soutenir</a></li>
+            <li><a href="">Établissements et services</a></li>
+            <li><a href="">Offres d'emploi</a></li>
+            <li><a href="">Actualités</a></li>
+            <li><a href="">Informations</a></li>
+            <a href="" class="donate-container">
+                <h6>Faire un don</h6>
+                <div class="donate-img"></div>
+            </a>
+        </ul>
+    </nav>
+</header>

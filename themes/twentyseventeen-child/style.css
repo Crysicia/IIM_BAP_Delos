@@ -12,6 +12,224 @@
  Text Domain:  delostheme
 */
 
-h1 {
-	color: red;
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* ======================================= Header ======================================= */
+
+header {
+	height: 20vh;
+	width: 100%;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+}
+
+.header-infos {
+	height: 12vh;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.logo {
+	width: 225px;
+	height: 10;
+	background-image: url(images/Logo@2x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.right-infos {
+	width: 40%;
+	height: inherit;
+	display: flex;
+}
+
+/* ======================================= email container ======================================= */
+
+.email-container {
+	width: 50%;
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.email-img {
+	height: 50px;
+	width: 50px;
+	background-image: url(images/picto_email@2x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+}
+
+.email-infos {
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 6%;
+	padding-left: 5%;
+}
+
+.email-infos h6 {
+	color: #000000;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.email-infos p {
+	color: #AFAFAF;
+	font-size: 15px;
+}
+
+/* ======================================= tel container ======================================= */
+
+.tel-container {
+	width: 50%;
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tel-img {
+	height: 40px;
+	width: 40px;
+	background-image: url(images/picto_telephone@2x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+}
+
+.tel-infos {
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 6%;
+	padding-left: 5%;
+}
+
+.tel-infos h6 {
+	color: #000000;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.tel-infos p {
+	color: #AFAFAF;
+	font-size: 15px;
+}
+
+.gray-line {
+	height: 1vh;
+	border-bottom: 1px solid #D9D9D9;
+}
+
+/* ======================================= Nav ======================================= */
+
+nav {
+	height: 7vh;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav .ul {
+	height: inherit;
+	width: 97%;
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav .ul li {
+	height: inherit;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+nav .ul li a {
+	height: inherit;
+	padding: 5px;
+	margin: 0 5px;
+	color: #223E8C;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav .ul li a:hover {
+	background-color: #223E8C;
+	color: #ffffff;
+}
+
+/* ======================================= dropdown menu ======================================= */
+
+.ul, .ul .dropdown {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.dropdown {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.ul .dropdown-text {
+	height: inherit;
+	color: #223E8C;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.ul .dropdown {
+	position: absolute;
+	left: -999em;
+	text-align: left;
+	z-index: 1000;
+}
+
+.ul li:hover .dropdown {
+	left: auto;
+	background-color: #ffffff;
+}
+
+.donate-container {
+	height: inherit;
+	width: 15%;
+	border-radius: 200px 0 0 200px;
+	background-color: #F19401;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.donate-container h6 {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+
+.donate-img {
+	height: 39px;
+	width: 33px;
+	background-image: url(images/donation@2x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
