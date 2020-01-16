@@ -12,6 +12,8 @@
  Text Domain:  delostheme
 */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
+
 body {
 	margin: 0;
 	padding: 0;
@@ -176,7 +178,8 @@ nav .ul li a:hover {
 
 /* ======================================= dropdown menu ======================================= */
 
-.ul, .ul .dropdown {
+.ul,
+.ul .dropdown {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -232,4 +235,156 @@ nav .ul li a:hover {
 	background-image: url(images/donation@2x.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+/************ BANNER *************/
+.banner {
+	height: 65vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(./images/kelli-mcclintock--2M4B_nFZUs-unsplash.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+}
+
+.banner-title,
+.banner-scrum {
+	margin: auto;
+	width: 100%;
+}
+
+.banner-scrum {
+	height: 3vh;
+}
+
+.banner-title {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+	align-items: center;
+}
+
+.banner-title h1 {
+    text-transform: uppercase;
+	color: white;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.banner-scrum span {
+	margin: 10px 0 0 40px;
+	font-size: 13px;
+	color: white;
+}
+
+/************* PAGE PRESENTATION ************/
+
+.presentation-paragraphe {
+	margin: auto;
+	width: 80%;
+
+}
+
+.valeur-banner {
+	background-color: blue;
+	height: 40vh;
+	display: flex;
+}
+
+.valeur-banner-img {
+	background: url(./images/nathan-anderson-J3Xjyg5m8kY-unsplash.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+	width: 60%;
+}
+
+.valeur-banner-title {
+	width: 40%;
+}
+
+
+.valeur-p {
+	background-color: red;
+	height: 70vh;
+}
+
+/* ======================================= Footer ======================================= */
+
+footer {
+    height: 385px;
+    background-color: #223E8C;
+}
+
+footer .newsletter {
+    padding-top: 70px;
+}
+
+footer .newsletter h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+footer .newsletter .wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer .newsletter form {
+    display: flex;
+    width: 530px;
+    margin-top: 45px;
+}
+
+footer .newsletter form > * {
+    box-shadow: 0px 3px 6px #00000029;
+    height: 50px;
+    border-radius: 25px;
+}
+
+footer .newsletter input[type=email] {
+    border: none;
+    background-color: #FFFFFF;
+    padding-right: 50px;
+}
+
+footer .newsletter button[type=submit] {
+    width: 190px;
+    margin-left: -40px;
+    background-color: #F19401;
+}
+
+footer .site-links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+footer .site-links li {
+    position: relative;
+    font-size: 20px;
+}
+
+footer .site-links li a {
+    color: #FFFFFF;
+    padding: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .site-links li:nth-child(n+2):before {
+    position: absolute;
+    top: 3px;
+    left: -1px;
+    color: white;
+    content: '|';
 }
