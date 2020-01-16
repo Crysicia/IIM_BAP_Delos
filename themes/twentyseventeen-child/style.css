@@ -281,12 +281,13 @@ nav .ul li a:hover {
 
 .presentation-paragraphe {
 	margin: auto;
+	margin-top: 5vh;
 	width: 80%;
-
+	color: #191977;
 }
 
 .valeur-banner {
-	background-color: blue;
+	background-color: #223E8C;
 	height: 40vh;
 	display: flex;
 }
@@ -300,13 +301,53 @@ nav .ul li a:hover {
 }
 
 .valeur-banner-title {
+	display: flex;
 	width: 40%;
 }
+.valeur-banner-title h2{
+	margin: auto;
+	color: #FFFFFF;
+	font-size: 3.5em;
+	font-weight: 600;
+	text-align: center;
+}
 
-
-.valeur-p {
-	background-color: red;
+.valeur-container-main {
 	height: 70vh;
+	display: flex;
+}
+
+.valeur-container-content{
+	margin: auto;
+	height: 60vh;
+	width: 90%;
+	display: inherit;
+}
+
+.valeur-container-content-block {
+	margin: auto;
+	height: 50vh;
+	width: 30%;
+	display: inline-block;
+	color: #191977;
+	font-size: 18px;
+}
+
+.valeur-container-content-block h3{
+	color: #191977;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.valeur-container-content-block-left, .valeur-container-content-block-center, .valeur-container-content-block-right{
+	text-align: center;	
+}
+
+.valeur-container-content-block-img-ethique, .valeur-container-content-block-img-ecoute,.valeur-container-content-block-img-qualite {
+	width: 80px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	justify-content: center;
 }
 
 /* ======================================= Footer ======================================= */
