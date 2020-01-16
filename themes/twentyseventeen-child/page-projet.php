@@ -48,6 +48,18 @@ get_template_part( 'templates/header', 'jumbotron' ); ?>
         </div>
     </div>
 
+    <div class="projet-point">
+
+    <div class="projet-point-container">
+
+    <div class="projet-point-container-block" id="S"></div>
+    <div class="projet-point-container-block" id="H"></div>
+    <div class="projet-point-container-block" id="V"></div>
+
+    </div>
+
+    </div>
+
 
 
 
