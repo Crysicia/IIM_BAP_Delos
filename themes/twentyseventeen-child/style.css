@@ -176,7 +176,8 @@ nav .ul li a:hover {
 
 /* ======================================= dropdown menu ======================================= */
 
-.ul, .ul .dropdown {
+.ul,
+.ul .dropdown {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -232,4 +233,75 @@ nav .ul li a:hover {
 	background-image: url(images/donation@2x.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+/************ BANNER *************/
+.banner {
+	height: 65vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(./images/kelli-mcclintock--2M4B_nFZUs-unsplash.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+}
+
+.banner-title,
+.banner-scrum {
+	margin: auto;
+	width: 100%;
+}
+
+.banner-scrum {
+	height: 3vh;
+}
+
+.banner-title {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+	align-items: center;
+}
+
+.banner-title h1 {
+	color: white;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.banner-scrum span {
+	margin: 10px 0 0 40px;
+	font-size: 13px;
+	color: white;
+}
+
+/************* PAGE PRESENTATION ************/
+
+.presentation-paragraphe {
+	margin: auto;
+	width: 80%;
+
+}
+
+.valeur-banner {
+	background-color: blue;
+	height: 40vh;
+	display: flex;
+}
+
+.valeur-banner-img {
+	background: url(./images/nathan-anderson-J3Xjyg5m8kY-unsplash.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+	width: 60%;
+}
+
+.valeur-banner-title {
+	width: 40%;
+}
+
+
+.valeur-p {
+	background-color: red;
+	height: 70vh;
 }
