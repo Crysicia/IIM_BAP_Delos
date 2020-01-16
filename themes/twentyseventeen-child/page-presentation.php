@@ -10,6 +10,12 @@ get_template_part( 'templates/header', 'jumbotron' ); ?>
 
 <div class="presentation-main">
 
+    <div class="presentation-title">
+        <div class="presentation-title-block" id="G"><span>SOLUTION D'ACCUEIL</span></div>
+        <div class="presentation-title-block" id="LB"><span>ET D'ÉDUCATION POUR</span></div>
+        <div class="presentation-title-block" id="DB"><span>LES PERSONNES HANDICAPÉES</span></div>    
+    </div>
+
     <div class="presentation-paragraphe">
         <p>
             Il y a cinquante ans des parents se sont regroupés pour trouver une solution d’accueil et d’éducation pour
