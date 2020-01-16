@@ -1,6 +1,6 @@
 <div class="banner">
     <div class="banner-scrum">
-        <span>ASSOCIATION / PRÉSENTATION<span>
+        <span>ASSOCIATION / <?php the_title(); ?><span>
     </div>
 
     <div class="banner-title">
