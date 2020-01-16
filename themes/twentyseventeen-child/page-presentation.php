@@ -4,19 +4,8 @@
 Template Name: Presentation
 */
 
-get_header(); ?>
-
-<div class="banner">
-
-    <div class="banner-scrum">
-        <span>ASSOCIATION / PRÉSENTATION<span>
-    </div>
-
-    <div class="banner-title">
-        <h1>PRÉSENTATION</h1>
-    </div>
-
-</div>
+get_header();
+get_template_part( 'templates/header', 'jumbotron' ); ?>
 
 
 <div class="presentation-main">
