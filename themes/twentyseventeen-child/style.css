@@ -436,6 +436,32 @@ nav .ul li a:hover {
 	color: #223E8C;
 }
 
+.projet-point{
+	height: 100vh;
+	display: flex;
+	background-color: green;
+}
+
+.projet-point-container{
+	margin: auto;
+	display: inherit;
+	height: 80%;
+	width: 75%;
+	background-color: blue;
+}
+.projet-point-container-block{
+	margin: auto;
+	height: 70%;
+	width: 25%;
+	background-color: red;
+}
+#S{
+	margin-bottom: 100vh;
+}
+#H{
+	margin-bottom: -10vh;
+}
+
 /************* PAGE PROJET ************/
 
 .organisation-pole{
