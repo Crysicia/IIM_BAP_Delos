@@ -280,37 +280,38 @@ nav .ul li a:hover {
 /************* PAGE PRESENTATION ************/
 
 .presentation-title {
-	margin-top: -20.5vh;
+	margin-top: -16.5vh;
 	color: #fff;
 	display: flex;
 	flex-direction: column;
-	width: 45%;
+	
 }
 
 .presentation-title-block {
+	margin-left: 300px;
 	text-align: center;
 }
 
 #G{
 	background-color: #83B82C;
+	width: 30%;
 }
 
 #LB {
 	background-color: #4D82E5;
+	width: 35%;
 }
 
 #DB {
+	margin: auto;
 	background-color: #223E8C;
+	width: 48%;
 }
 
 .presentation-title span {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 700;
 }
-
-
-
-
 
 
 .presentation-paragraphe {
@@ -366,6 +367,7 @@ nav .ul li a:hover {
 	display: inline-block;
 	color: #191977;
 	font-size: 18px;
+	text-align: center;
 }
 
 .valeur-container-content-block h3 {
@@ -374,11 +376,6 @@ nav .ul li a:hover {
 	font-weight: 600;
 }
 
-.valeur-container-content-block-left,
-.valeur-container-content-block-center,
-.valeur-container-content-block-right {
-	text-align: center;
-}
 
 .valeur-container-content-block-img-ethique,
 .valeur-container-content-block-img-ecoute,
@@ -388,6 +385,10 @@ nav .ul li a:hover {
 	background-size: contain;
 	justify-content: center;
 }
+
+
+/************* PAGE PRESENTATION ************/
+
 
 /* ======================================= Footer ======================================= */
 
