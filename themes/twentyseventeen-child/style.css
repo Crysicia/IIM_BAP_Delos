@@ -330,7 +330,7 @@ nav .ul li a:hover {
 .valeur-banner-img {
 	background: url(./images/nathan-anderson-J3Xjyg5m8kY-unsplash.jpg);
 	background-size: cover;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	background-position: center;
 	width: 60%;
 }
@@ -462,7 +462,74 @@ nav .ul li a:hover {
 	margin-bottom: -10vh;
 }
 
+/************* PAGE PROJET ************/
 
+.organisation-pole{
+	margin: -15vh auto auto auto;
+	background-color: #223E8C;
+	width: 80%;
+	height: 50vh;
+	display: flex;
+}
+.organisation-pole-p{
+	color: white;
+	margin: auto;
+	width: 90%;
+}
+
+.organisation-schema{
+	margin: 10vh auto auto -10vh;
+	height: 85vh;
+	background: url(./images/schéma@2x.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.organisation-schema h2{
+	margin-left: 30vh;
+	color: #191977;
+	font-weight: 600;
+}
+
+.organisation-map{
+	margin: auto;
+	height: 60vh;
+	background: url(./images/Carte@2x.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+}
+
+.organisation-map-block{
+	margin: auto 0;
+	height: 40vh;
+	width: 30%;
+	border-radius: 25px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.organisation-map-block-content{
+	margin: auto;
+	color: #223E8C;
+	width: 75%;
+	font-size: 15px;
+}
+
+.organisation-map-block-button{
+	margin: auto;
+	width: 75%;
+	font-size: 13px;
+	
+}
+.organisation-map-block-button button{
+	background-color: #83B82C;
+	border-radius: 50px;
+}
 
 /* ======================================= Footer ======================================= */
 
