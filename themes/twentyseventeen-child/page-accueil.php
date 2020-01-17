@@ -15,7 +15,6 @@ get_header();
 	</div> <!-- .container -->
 </div> <!-- #main-content -->
 <!-- <?php get_template_part( 'templates/footer', 'page' ); ?> -->
-
 <?php
 get_footer();
 ?>

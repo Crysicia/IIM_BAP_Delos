@@ -5,10 +5,17 @@ Template Name: Presentation
 */
 
 get_header();
+set_jumbotron("/images/kelli-mcclintock--2M4B_nFZUs-unsplash.jpg");
 get_template_part( 'templates/header', 'jumbotron' ); ?>
 
 
 <div class="presentation-main">
+
+    <div class="presentation-title">
+        <div class="presentation-title-block" id="G"><span>SOLUTION D'ACCUEIL</span></div>
+        <div class="presentation-title-block" id="LB"><span>ET D'ÉDUCATION POUR</span></div>
+        <div class="presentation-title-block" id="DB"><span>LES PERSONNES HANDICAPÉES</span></div>    
+    </div>
 
     <div class="presentation-paragraphe">
         <p>
@@ -46,9 +53,54 @@ get_template_part( 'templates/header', 'jumbotron' ); ?>
 
     <div class="valeur-banner">
         <div class="valeur-banner-img"></div>
-        <div class="valeur-banner-title">NOS VALEURS</div>
+        <div class="valeur-banner-title">
+            <h2>NOS VALEURS</h2>
+        </div>
     </div>
 
-    <div class="valeur-p"></div>
+    <div class="valeur-container-main">
+
+        <div class="valeur-container-content">
+            <div class="valeur-container-content-block">
+                <div class="valeur-container-content-block-left">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/picto_etique@2x.png" alt="ethique"
+                        class="valeur-container-content-block-img-ecoute">
+                    <h3>L'ÉTHIQUE</h3>
+                    <p>Notre action vise à préserver la dignité , l’intégrité physique et morale des personnes malades.
+                    </p>
+                    <p>Nous veillons à ce que l’accompagnement, l’aide, le soutien, la protection et les soins soient
+                        effectués par des professionnels qualifiés, agissant avec discernement et bienveillance.</p>
+                </div>
+            </div>
+            <div class="valeur-container-content-block">
+                <div class="valeur-container-content-block-center">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/picto_ecoute@2x.png" alt="ethique"
+                        class="valeur-container-content-block-img-ecoute">
+                    <h3>L'ÉCOUTE</h3>
+                    <p>L’humain est au centre de notre système de valeurs. Nous sommes à l’écoute des besoins du patient
+                        et de ses proches tout en respectant ses choix et ses valeurs.</p>
+
+                </div>
+            </div>
+            <div class="valeur-container-content-block">
+                <div class="valeur-container-content-block-right">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Picto_qualite@2x.png" alt="ethique"
+                        class="valeur-container-content-block-img-ecoute">
+                    <h3>LA QUALITÉ</h3>
+                    <p>Nous veillons à la qualité de l’accueil des familles dès le premier contact.</p>
+                    <p>Nous suivons les pistes d’amélioration en continue de la qualité, issues des évaluations
+                        internes et externes tout en prenant en compte les préconisations de l’ANESM.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 
 </div>
+
+</div>
+
+<?php
+get_footer();
+?>

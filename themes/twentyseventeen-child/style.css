@@ -20,6 +20,10 @@ body {
 	width: 100%;
 }
 
+a {
+	font-family: "Roboto";
+}
+
 /* ======================================= Header ======================================= */
 
 header {
@@ -239,17 +243,20 @@ nav .ul li a:hover {
 
 /************ BANNER *************/
 .banner {
+	position: relative;
 	height: 65vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(./images/kelli-mcclintock--2M4B_nFZUs-unsplash.jpg);
 	background-size: cover;
 	background-repeat: repeat;
 	background-position: center;
+	overflow: hidden;
+	z-index: -1;
 }
 
 .banner-title,
 .banner-scrum {
 	margin: auto;
 	width: 100%;
+	text-transform: uppercase;
 }
 
 .banner-scrum {
@@ -265,7 +272,6 @@ nav .ul li a:hover {
 }
 
 .banner-title h1 {
-    text-transform: uppercase;
 	color: white;
 	font-size: 3em;
 	font-weight: 600;
@@ -279,14 +285,50 @@ nav .ul li a:hover {
 
 /************* PAGE PRESENTATION ************/
 
+.presentation-title {
+	margin-top: -16.5vh;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.presentation-title-block {
+	margin-left: 300px;
+	text-align: center;
+}
+
+#G{
+	background-color: #83B82C;
+	width: 30%;
+}
+
+#LB {
+	background-color: #4D82E5;
+	width: 35%;
+}
+
+#DB {
+	margin: auto;
+	background-color: #223E8C;
+	width: 48%;
+}
+
+.presentation-title span {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+
 .presentation-paragraphe {
 	margin: auto;
+	margin-top: 5vh;
 	width: 80%;
-
+	color: #191977;
 }
 
 .valeur-banner {
-	background-color: blue;
+	background-color: #223E8C;
 	height: 40vh;
 	display: flex;
 }
@@ -294,91 +336,342 @@ nav .ul li a:hover {
 .valeur-banner-img {
 	background: url(./images/nathan-anderson-J3Xjyg5m8kY-unsplash.jpg);
 	background-size: cover;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	background-position: center;
 	width: 60%;
 }
 
 .valeur-banner-title {
+	display: flex;
 	width: 40%;
 }
 
+.valeur-banner-title h2 {
+	margin: auto;
+	color: #FFFFFF;
+	font-size: 3.5em;
+	font-weight: 600;
+	text-align: center;
+}
 
-.valeur-p {
-	background-color: red;
+.valeur-container-main {
 	height: 70vh;
+	display: flex;
+}
+
+.valeur-container-content {
+	margin: auto;
+	height: 60vh;
+	width: 90%;
+	display: inherit;
+}
+
+.valeur-container-content-block {
+	margin: auto;
+	height: 50vh;
+	width: 30%;
+	display: inline-block;
+	color: #191977;
+	font-size: 18px;
+	text-align: center;
+}
+
+.valeur-container-content-block h3 {
+	color: #191977;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+
+.valeur-container-content-block-img-ethique,
+.valeur-container-content-block-img-ecoute,
+.valeur-container-content-block-img-qualite {
+	width: 80px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	justify-content: center;
+}
+
+
+/************* PAGE PROJET ************/
+.projet-obj{
+	margin: -15vh auto auto auto;
+	background-color: #223E8C;
+	width: 80%;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+}
+.projet-obj-container{
+	color: white;
+	margin: auto;
+	height:40%;
+	width:85%;
+	display: flex;
+	
+}
+.projet-obj-container-title{
+	margin: auto;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: underline;
+	width: 20%;
+}
+.projet-obj-container-p{
+	margin: auto;
+	width: 80%;
+}
+
+.hline-top {
+    margin: auto;
+    width: 200px;
+    border-bottom: 3px solid #83B82C;
+}
+
+.projet-pourquoi h2{
+	margin-top: 10vh;
+	color: #191977;
+	text-align: center;
+	font-weight: 600;
+
+}
+
+.projet-pourquoi-p{
+	margin: 10vh auto auto auto;
+	width: 90%;
+	color: #223E8C;
+}
+
+.projet-point{
+	margin-bottom: 20vh;
+	height: 100vh;
+	display: flex;
+}
+
+.projet-point-container{
+	margin: auto;
+	display: inherit;
+	height: 80%;
+	width: 75%;
+}
+.projet-point-container-block{
+	margin: auto;
+	height: 70%;
+	width: 25%;
+}
+#S{
+	margin-bottom: 50vh;
+}
+#H{
+	margin-bottom: -5vh;
+}
+#V{
+	margin-top: 5vh;
+}
+
+.projet-point-container-block-head-title{
+	margin: -14vh 0 0 8vh;	
+}
+
+.projet-point-container-block-head-title h3, .projet-point-container-block-head-title span {
+	color: #223E8C;
+}
+.projet-point-container-block-head-title h3{
+	font-weight: 600;
+}
+.projet-service{
+	display: flex;
+	width: 50%;
+}
+.projet-point-container-block-tail{
+	margin: 5vh auto auto 5vh;
+	height: 90%;
+	width: 90%;
+}
+.projet-service-bg{
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/************* PAGE PROJET ************/
+
+.organisation-pole{
+	margin: -15vh auto auto auto;
+	background-color: #223E8C;
+	width: 80%;
+	height: 50vh;
+	display: flex;
+}
+.organisation-pole-p{
+	color: white;
+	margin: auto;
+	width: 90%;
+}
+
+.organisation-schema{
+	margin: 10vh auto auto -10vh;
+	height: 85vh;
+	background: url(./images/schéma@2x.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.organisation-schema h2{
+	margin-left: 30vh;
+	color: #191977;
+	font-weight: 600;
+}
+
+.organisation-map{
+	margin: auto;
+	height: 60vh;
+	background: url(./images/Carte@2x.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+}
+
+.organisation-map-block{
+	margin: auto 0;
+	height: 40vh;
+	width: 30%;
+	border-radius: 25px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.organisation-map-block-content{
+	margin: auto;
+	color: #223E8C;
+	width: 75%;
+	font-size: 15px;
+}
+
+.organisation-map-block-button{
+	margin: auto;
+	width: 75%;
+	font-size: 13px;
+	
+}
+.organisation-map-block-button button{
+	background-color: #83B82C;
+	border-radius: 50px;
+}
+
+/* ======================================= Nous soutenir ======================================= */
+
+.soutenir {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5vw;
+	height: 400px;
+	margin: 4vh 3vw;
+}
+
+.soutenir .card {
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+
+.soutenir .card .image-wrapper {
+	height: 90%;
+	width: 100%;
+}
+
+.soutenir .card img {
+	overflow: hidden;
+}
+
+.soutenir .card a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+	background-color:  #87B900;
+	height: 80px;
+	width: 20vw;
+	z-index: 2;
 }
 
 /* ======================================= Footer ======================================= */
 
 footer {
-    height: 385px;
-    background-color: #223E8C;
+	height: 385px;
+	background-color: #223E8C;
 }
 
 footer .newsletter {
-    padding-top: 70px;
+	padding-top: 70px;
 }
 
 footer .newsletter h3 {
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 32px;
-    font-family: 'Roboto';
-    font-weight: 900;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 32px;
+	font-family: 'Roboto';
+	font-weight: 900;
 }
 
 footer .newsletter .wrapper {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 
 footer .newsletter form {
-    display: flex;
-    width: 530px;
-    margin-top: 45px;
+	display: flex;
+	width: 530px;
+	margin-top: 45px;
 }
 
-footer .newsletter form > * {
-    box-shadow: 0px 3px 6px #00000029;
-    height: 50px;
-    border-radius: 25px;
+footer .newsletter form>* {
+	box-shadow: 0px 3px 6px #00000029;
+	height: 50px;
+	border-radius: 25px;
 }
 
 footer .newsletter input[type=email] {
-    border: none;
-    background-color: #FFFFFF;
-    padding-right: 50px;
+	border: none;
+	background-color: #FFFFFF;
+	padding-right: 50px;
 }
 
 footer .newsletter button[type=submit] {
-    width: 190px;
-    margin-left: -40px;
-    background-color: #F19401;
+	width: 190px;
+	margin-left: -40px;
+	background-color: #F19401;
 }
 
 footer .site-links {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    margin-top: 90px;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	margin-top: 90px;
 }
 
 footer .site-links li {
-    position: relative;
-    font-size: 20px;
+	position: relative;
+	font-size: 20px;
 }
 
 footer .site-links li a {
-    color: #FFFFFF;
-    padding: 5px;
-    margin: 0 5px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	color: #FFFFFF;
+	padding: 5px;
+	margin: 0 5px;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 footer .site-links li:nth-child(n+2):before {
