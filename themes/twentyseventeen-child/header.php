@@ -51,7 +51,10 @@
     <div class="gray-line"></div>
 
     <nav>
-        <ul class="ul">
+    <?php
+/*     wp_nav_menu(array ('menu' => 'header'));
+ */    ?>
+         <ul class="ul">
             <li><a href="">L'association</a>
                 <ul class="dropdown">
                     <li class="dropdown-liste"><a class="dropdown-text" href="">Présentation</a></li>
@@ -59,7 +62,7 @@
                     <li class="dropdown-liste"><a class="dropdown-text" href="">L'organisation</a></li>
                 </ul>
             </li>
-            <li><a href="">Nous soutenir</a></li>
+            <li><a href="<?php echo home_url('/actualites-delos-apei-78'); ?>">Nous soutenir</a></li>
             <li><a href="">Établissements et services</a></li>
             <li><a href="">Offres d'emploi</a></li>
             <li><a href="">Actualités</a></li>
