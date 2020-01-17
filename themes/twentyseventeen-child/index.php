@@ -1,3 +1,5 @@
 <?php get_header(); ?>
-<h1>It works!</h1>
+
+<?php get_template_part( './slider', 'page' ); ?>
+
 <?php get_footer(); ?>
