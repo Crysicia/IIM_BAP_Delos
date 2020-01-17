@@ -572,3 +572,60 @@ footer .site-links li:nth-child(n+2):before {
 	padding-bottom: 6px;
 	text-align: center;
 }
+
+/* ======================================= Actualités Delos  ======================================= */
+
+.container-buttons-fullwidth {
+	width: 100%;
+	height: 8vh;
+	margin-top: -2vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-buttons-center {
+	height: inherit;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container-trier {
+	width: 20%;
+	height: 5vh;
+	background-color: #83B82C;
+	border-radius: 28px;
+	border: 1px solid #83B82C;
+	cursor: pointer;
+	text-align: center;
+}
+
+.container-trier .container-texte-trier {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+}
+
+.container-trier .container-texte-trier .texte-trier {
+	margin-top: 2.5vh;
+}
+
+.container-themes {
+	height: inherit;
+	width: 20%;
+	background-color: lightgreen;
+}
+
+.container-filtres {
+	height: inherit;
+	width: 20%;
+	background-color: lightyellow;
+}
+
+.container-recherches {
+	height: inherit;
+	width: 20%;
+	background-color: lightslategrey;
+}
