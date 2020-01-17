@@ -20,6 +20,10 @@ body {
 	width: 100%;
 }
 
+a {
+	font-family: "Roboto";
+}
+
 /* ======================================= Header ======================================= */
 
 header {
@@ -239,17 +243,19 @@ nav .ul li a:hover {
 
 /************ BANNER *************/
 .banner {
+	position: relative;
 	height: 65vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(./images/kelli-mcclintock--2M4B_nFZUs-unsplash.jpg);
 	background-size: cover;
 	background-repeat: repeat;
 	background-position: center;
+	overflow: hidden;
 }
 
 .banner-title,
 .banner-scrum {
 	margin: auto;
 	width: 100%;
+	text-transform: uppercase;
 }
 
 .banner-scrum {
@@ -265,7 +271,6 @@ nav .ul li a:hover {
 }
 
 .banner-title h1 {
-    text-transform: uppercase;
 	color: white;
 	font-size: 3em;
 	font-weight: 600;
@@ -307,6 +312,47 @@ nav .ul li a:hover {
 .valeur-p {
 	background-color: red;
 	height: 70vh;
+}
+
+/* ======================================= Nous soutenir ======================================= */
+
+.soutenir {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5vw;
+	height: 400px;
+	margin: 4vh 3vw;
+}
+
+.soutenir .card {
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+
+.soutenir .card .image-wrapper {
+	height: 90%;
+	width: 100%;
+}
+
+.soutenir .card img {
+	overflow: hidden;
+}
+
+.soutenir .card a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+	background-color:  #87B900;
+	height: 80px;
+	width: 20vw;
+	z-index: 2;
 }
 
 /* ======================================= Footer ======================================= */

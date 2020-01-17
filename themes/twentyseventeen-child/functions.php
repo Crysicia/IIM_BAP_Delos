@@ -11,3 +11,7 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
+
+function set_jumbotron($image_path) {
+    set_query_var('jumbotron_image', get_stylesheet_directory_uri() . $image_path);
+}
