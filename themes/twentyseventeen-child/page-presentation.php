@@ -5,6 +5,7 @@ Template Name: Presentation
 */
 
 get_header();
+set_jumbotron("/images/kelli-mcclintock--2M4B_nFZUs-unsplash.jpg");
 get_template_part( 'templates/header', 'jumbotron' ); ?>
 
 
@@ -60,7 +61,6 @@ get_template_part( 'templates/header', 'jumbotron' ); ?>
     <div class="valeur-container-main">
 
         <div class="valeur-container-content">
-
             <div class="valeur-container-content-block">
                 <div class="valeur-container-content-block-left">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/picto_etique@2x.png" alt="ethique"
