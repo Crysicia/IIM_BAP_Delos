@@ -1,5 +1,5 @@
         </div><!-- #content -->
-
+        <footer id="colophon"  role="contentinfo">
         <footer id="colophon" role="contentinfo">
             <div class="newsletter">
                 <h3>Indique ton email pour recevoir l’actualité de l’association.</h3>

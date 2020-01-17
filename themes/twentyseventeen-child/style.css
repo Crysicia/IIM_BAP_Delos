@@ -443,9 +443,9 @@ nav .ul li a:hover {
 }
 
 .projet-point{
+	margin-bottom: 20vh;
 	height: 100vh;
 	display: flex;
-	background-color: green;
 }
 
 .projet-point-container{
@@ -453,19 +453,44 @@ nav .ul li a:hover {
 	display: inherit;
 	height: 80%;
 	width: 75%;
-	background-color: blue;
 }
 .projet-point-container-block{
 	margin: auto;
 	height: 70%;
 	width: 25%;
-	background-color: red;
 }
 #S{
-	margin-bottom: 100vh;
+	margin-bottom: 50vh;
 }
 #H{
-	margin-bottom: -10vh;
+	margin-bottom: -5vh;
+}
+#V{
+	margin-top: 5vh;
+}
+
+.projet-point-container-block-head-title{
+	margin: -14vh 0 0 8vh;	
+}
+
+.projet-point-container-block-head-title h3, .projet-point-container-block-head-title span {
+	color: #223E8C;
+}
+.projet-point-container-block-head-title h3{
+	font-weight: 600;
+}
+.projet-service{
+	display: flex;
+	width: 50%;
+}
+.projet-point-container-block-tail{
+	margin: 5vh auto auto 5vh;
+	height: 90%;
+	width: 90%;
+}
+.projet-service-bg{
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 /************* PAGE PROJET ************/
