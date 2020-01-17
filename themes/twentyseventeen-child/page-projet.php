@@ -50,13 +50,51 @@ get_template_part( 'templates/header', 'jumbotron' ); ?>
 
     <div class="projet-point">
 
-    <div class="projet-point-container">
+        <div class="projet-point-container">
 
-    <div class="projet-point-container-block" id="S"></div>
-    <div class="projet-point-container-block" id="H"></div>
-    <div class="projet-point-container-block" id="V"></div>
+            <div class="projet-point-container-block" id="S">
+                <div class="projet-point-container-block-head">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/01@2x.png" alt="1"
+                        class="projet-service">
+                    <div class="projet-point-container-block-head-title">
+                        <h3>Service / Aide :</h3>
+                        <span>des professionnels à l’écoute</span>
+                    </div>
+                </div>
+                <div class="projet-point-container-block-tail">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/photo_service@2x.png" alt="service"
+                        class="projet-service-bg">
+                </div>
+            </div>
+            <div class="projet-point-container-block" id="H">
+            <div class="projet-point-container-block-head">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/02@2x.png" alt="2"
+                        class="projet-service">
+                    <div class="projet-point-container-block-head-title">
+                        <h3>Handicap :</h3>
+                        <span>des familles accueillis et suivis</span>
+                    </div>
+                </div>
+                <div class="projet-point-container-block-tail">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/enfant-trisomique@2x.png" alt="handicap"
+                        class="projet-service-bg">
+                </div>
+            </div>
+            <div class="projet-point-container-block" id="V">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/03@2x.png" alt=""
+                        class="projet-service">
+                    <div class="projet-point-container-block-head-title">
+                        <h3>Valeurs :</h3>
+                        <span>Vivre son handicap grâce à Delos Apei</span>
+                    </div>
+                    <div class="projet-point-container-block-tail">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/photo_valeurs@2x.png" alt="valeurs"
+                        class="projet-service-bg">
+                </div>
+                </div>
+            </div>
 
-    </div>
+        </div>
 
     </div>
 
