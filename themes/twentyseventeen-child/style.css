@@ -1108,3 +1108,7 @@ footer .site-links li:nth-child(n+2):before {
 	font-weight: bold;
 	cursor: pointer;
 }
+
+.espacement-container-actualites-delos {
+	height: 20vh;
+}

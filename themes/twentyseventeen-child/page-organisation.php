@@ -5,6 +5,7 @@ Template Name: Organisation
 */
 
 get_header();
+set_jumbotron("/images/kelli-mcclintock--2M4B_nFZUs-unsplash.jpg"); 
 get_template_part( 'templates/header', 'jumbotron' ); ?>
 
 
