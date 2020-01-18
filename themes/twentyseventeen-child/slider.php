@@ -99,5 +99,8 @@
         </div>
     </div> <!-- actualites-container -->
     
+    <div class="espacement-container-actualites-delos"></div>
 </body>
 </html>
+
+<?php get_footer(); ?>
