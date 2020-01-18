@@ -600,6 +600,7 @@ nav .ul li a:hover {
 	height: 80px;
 	width: 20vw;
 	z-index: 2;
+	margin-bottom: 15vh;
 }
 
 /* ======================================= Footer ======================================= */

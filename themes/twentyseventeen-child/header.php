@@ -66,7 +66,7 @@
             <li><a href="">Établissements et services</a></li>
             <li><a href="">Offres d'emploi</a></li>
             <li><a href="<?php echo home_url('/actualites-delos-apei-78'); ?>">Actualités</a></li>
-            <li><a href="">Informations</a></li>
+            <li><a href="<?php echo home_url('/informations'); ?>">Informations</a></li>
             <a href="" class="donate-container">
                 <h6>Faire un don</h6>
                 <div class="donate-img"></div>
