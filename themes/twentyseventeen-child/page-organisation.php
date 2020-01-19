@@ -43,7 +43,7 @@ get_template_part( 'templates/header', 'jumbotron' ); ?>
                 <span>Du lundi au vendredi : 8h30 - 18h</span>
             </div>
             <div class="organisation-map-block-button">
-            <button class="">Voir sur Google Map</button>
+            <a href="https://www.google.com/maps/place/DELOS+APEI+78/@48.8662041,1.78882,17z/data=!4m5!3m4!1s0x47e6be5358b801cd:0xaa68724e15741156!8m2!3d48.8670125!4d1.7904751" target="_blank"><button>Voir sur Google Map</button></a>
         </div>
         </div>
     </div>
