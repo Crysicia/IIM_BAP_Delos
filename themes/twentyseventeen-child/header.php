@@ -58,7 +58,7 @@
             <li><a href="<?php echo home_url('/association'); ?>">L'association</a>
                 <ul class="dropdown">
                     <li class="dropdown-liste"><a class="dropdown-text" href="<?php echo home_url('/presentation'); ?>">Présentation</a></li>
-                    <li class="dropdown-liste"><a class="dropdown-text" href="<?php echo home_url('/notre-projet'); ?>">Notre Projet</a></li>
+                    <li class="dropdown-liste"><a class="dropdown-text" href="<?php echo home_url('/projet'); ?>">Notre Projet</a></li>
                     <li class="dropdown-liste"><a class="dropdown-text" href="<?php echo home_url('/organisation'); ?>">L'organisation</a></li>
                 </ul>
             </li>
